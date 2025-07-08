@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/pausescreenbutton_screen/PauseScreenButtonPresenter.hpp:28:13:PauseScreenButtonPresenter::~PauseScreenButtonPresenter()	0	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/pausescreenbutton_screen/PauseScreenButtonPresenter.cpp:10:6:virtual void PauseScreenButtonPresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/pausescreenbutton_screen/PauseScreenButtonPresenter.hpp:28:13:virtual PauseScreenButtonPresenter::~PauseScreenButtonPresenter()	8	static
+../../TouchGFX/gui/include/gui/pausescreenbutton_screen/PauseScreenButtonPresenter.hpp:28:13:virtual void* PauseScreenButtonPresenter::_ZThn4_N26PauseScreenButtonPresenterD1Ev()	0	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/pausescreenbutton_screen/PauseScreenButtonPresenter.cpp:4:1:PauseScreenButtonPresenter::PauseScreenButtonPresenter(PauseScreenButtonView&)	0	static

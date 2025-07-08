@@ -1,0 +1,726 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "StartScreen",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "startImg",
+            "Width": 240,
+            "Height": 320,
+            "RelativeFilename": "StartScreen.png"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "startButt",
+            "X": 157,
+            "Y": 91,
+            "Width": 68,
+            "Height": 23,
+            "Alpha": 40,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 68,
+                "Height": 23,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "playchange",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "startButt"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "SelectHardwareScreen"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "SelectHardwareScreen",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 240,
+            "Height": 320,
+            "RelativeFilename": "SelectHardware.png"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "playWithButton",
+            "X": 45,
+            "Y": 236,
+            "Width": 150,
+            "Height": 30,
+            "Alpha": 40,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 150,
+                "Height": 30,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "playWithLoadcell",
+            "X": 45,
+            "Y": 198,
+            "Width": 150,
+            "Height": 30,
+            "Alpha": 40,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 150,
+                "Height": 30,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "playwithloadcell",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "playWithLoadcell"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "LoadcellScreen"
+            }
+          },
+          {
+            "InteractionName": "playwithbutton",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "playWithButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "ButtonScreen"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "ButtonScreen",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "playButtImg",
+            "Width": 240,
+            "Height": 320,
+            "RelativeFilename": "buttonscreen.png"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "retryButt1",
+            "X": 160,
+            "Y": 142,
+            "Width": 70,
+            "Height": 25,
+            "Alpha": 40,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 70,
+                "Height": 25,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "pauseButt1",
+            "X": 10,
+            "Y": 142,
+            "Width": 70,
+            "Height": 25,
+            "Alpha": 40,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 70,
+                "Height": 25,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "highscorebutt",
+            "X": 5,
+            "Y": 109,
+            "Width": 80,
+            "Height": 25,
+            "TextId": "__SingleUse_W3U5",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_5NLL",
+              "UseBuffer": true,
+              "BufferSize": 25
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "scorebutt",
+            "X": 155,
+            "Y": 109,
+            "Width": 80,
+            "Height": 25,
+            "TextId": "__SingleUse_HG08",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_I0IC",
+              "UseBuffer": true,
+              "BufferSize": 25
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": 117,
+            "Y": 299,
+            "Width": 6,
+            "Height": 15,
+            "RelativeFilename": "highstriker_cursor.png"
+          },
+          {
+            "Type": "ModalWindow",
+            "Name": "modalWindow1",
+            "Width": 240,
+            "Height": 320,
+            "Visible": false,
+            "FileName": "highstrikerpopup.png",
+            "ModalWidth": 240,
+            "ModalHeight": 320,
+            "Alpha": 105,
+            "Components": [
+              {
+                "Type": "TextArea",
+                "Name": "headerText",
+                "X": 45,
+                "Y": 77,
+                "Width": 158,
+                "Height": 24,
+                "Visible": false,
+                "TextId": "__SingleUse_Q7ZN",
+                "TextRotation": "0",
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "ready",
+                "X": 93,
+                "Y": 143,
+                "Width": 62,
+                "Height": 24,
+                "Visible": false,
+                "TextId": "__SingleUse_NMUH",
+                "TextRotation": "0",
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "strike",
+                "X": 75,
+                "Y": 143,
+                "Width": 99,
+                "Height": 24,
+                "Visible": false,
+                "TextId": "__SingleUse_SD20",
+                "TextRotation": "0",
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "set",
+                "X": 104,
+                "Y": 143,
+                "Width": 39,
+                "Height": 24,
+                "Visible": false,
+                "TextId": "__SingleUse_SLNW",
+                "TextRotation": "0",
+                "AutoSize": true,
+                "WideTextAction": 2
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "readyButton",
+                "X": 65,
+                "Y": 219,
+                "Width": 110,
+                "Height": 50,
+                "Visible": false,
+                "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_rounded_normal.png",
+                "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_rounded_normal.png",
+                "TextId": "__SingleUse_6Y7Z",
+                "TextRotation": "0"
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "pausebuttchange",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "pauseButt1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "PauseScreen"
+            }
+          },
+          {
+            "InteractionName": "retryButtonChance",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "retryButt1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "retryButtonClicked"
+            }
+          },
+          {
+            "InteractionName": "readyButtonChance",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "readyButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "readyButtonClicked"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "LoadcellScreen",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "playLcImg",
+            "Width": 240,
+            "Height": 320,
+            "RelativeFilename": "LoadcellScreen.png"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "retryButt2",
+            "X": 160,
+            "Y": 142,
+            "Width": 70,
+            "Height": 25,
+            "Alpha": 40,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 70,
+                "Height": 25,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "pauseButt2",
+            "X": 10,
+            "Y": 142,
+            "Width": 70,
+            "Height": 25,
+            "Alpha": 40,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 70,
+                "Height": 25,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "highscorelc",
+            "X": 5,
+            "Y": 109,
+            "Width": 80,
+            "Height": 25,
+            "TextId": "__SingleUse_5D8M",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_01YY",
+              "UseBuffer": true,
+              "BufferSize": 25
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "scorelc",
+            "X": 155,
+            "Y": 109,
+            "Width": 80,
+            "Height": 25,
+            "TextId": "__SingleUse_2JFG",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_FLK3",
+              "UseBuffer": true,
+              "BufferSize": 25
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "pauselcchange",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "pauseButt2"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "PauseScreen"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "PauseScreen",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "pauseImg",
+            "Width": 240,
+            "Height": 320,
+            "RelativeFilename": "PauseScreen.png"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "resumeButt",
+            "X": 36,
+            "Y": 184,
+            "Width": 166,
+            "Height": 50,
+            "Alpha": 40,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 166,
+                "Height": 50,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "quitButt",
+            "X": 36,
+            "Y": 234,
+            "Width": 166,
+            "Height": 50,
+            "Alpha": 40,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 166,
+                "Height": 50,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "resumebuttchange",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "resumeButt"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "resumeButtonClicked"
+            }
+          },
+          {
+            "InteractionName": "quitbuttchange",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "quitButt"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "StartScreen"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "Highstriker",
+    "Resolution": {
+      "Width": 240,
+      "Height": 320
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "StartScreen",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 240,
+        "Height": 320
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Portrait",
+    "Family": "STM32F4",
+    "SubFamily": "STM32F429/439",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m4",
+    "ProjectFile": "../STM32F429I_DISCO_REV_D01.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts"
+    ]
+  },
+  "Version": "4.25.0",
+  "CreatedBy": "4.25.0"
+}

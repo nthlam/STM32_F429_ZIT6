@@ -1,0 +1,31 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/buttonscreen_screen/ButtonScreenView.cpp:59:6:virtual void ButtonScreenView::tearDownScreen()	0	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/buttonscreen_screen/ButtonScreenView.cpp:166:6:virtual void ButtonScreenView::pauseButtonClicked()	8	static
+../../TouchGFX/gui/include/gui/buttonscreen_screen/ButtonScreenView.hpp:13:10:ButtonScreenView::~ButtonScreenView()	8	static
+../../TouchGFX/gui/include/gui/buttonscreen_screen/ButtonScreenView.hpp:13:10:virtual ButtonScreenView::~ButtonScreenView()	8	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/buttonscreen_screen/ButtonScreenView.cpp:43:6:virtual void ButtonScreenView::buttonHandle()	24	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/buttonscreen_screen/ButtonScreenView.cpp:10:1:ButtonScreenView::ButtonScreenView()	8	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/buttonscreen_screen/ButtonScreenView.cpp:111:7:float ButtonScreenView::calculateDynamicSpeed(int)	8	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/buttonscreen_screen/ButtonScreenView.cpp:131:5:int ButtonScreenView::calculateScore(int)	8	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/buttonscreen_screen/ButtonScreenView.cpp:317:6:void ButtonScreenView::startGame()	0	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/buttonscreen_screen/ButtonScreenView.cpp:327:6:void ButtonScreenView::stopGame()	0	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/buttonscreen_screen/ButtonScreenView.cpp:332:6:void ButtonScreenView::resetGame()	0	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/buttonscreen_screen/ButtonScreenView.cpp:341:6:static void ButtonScreenView::setHighScore(int)	0	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/buttonscreen_screen/ButtonScreenView.cpp:346:5:static int ButtonScreenView::getHighScore()	0	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/buttonscreen_screen/ButtonScreenView.cpp:154:6:virtual void ButtonScreenView::updateCursorPositionText()	32	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/buttonscreen_screen/ButtonScreenView.cpp:250:6:void ButtonScreenView::hideModal()	16	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/buttonscreen_screen/ButtonScreenView.cpp:271:6:void ButtonScreenView::hideAllCountdownTexts()	8	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/buttonscreen_screen/ButtonScreenView.cpp:261:6:void ButtonScreenView::resetModalState()	0	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/buttonscreen_screen/ButtonScreenView.cpp:232:6:void ButtonScreenView::showModal()	16	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/buttonscreen_screen/ButtonScreenView.cpp:310:6:virtual void ButtonScreenView::retryButtonClicked()	8	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/buttonscreen_screen/ButtonScreenView.cpp:281:6:void ButtonScreenView::showReadyState()	8	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/buttonscreen_screen/ButtonScreenView.cpp:173:6:virtual void ButtonScreenView::readyButtonClicked()	8	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/buttonscreen_screen/ButtonScreenView.cpp:292:6:void ButtonScreenView::showSetState()	8	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/buttonscreen_screen/ButtonScreenView.cpp:301:6:void ButtonScreenView::showStrikeState()	8	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/buttonscreen_screen/ButtonScreenView.cpp:189:6:void ButtonScreenView::stepCountdown()	8	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/buttonscreen_screen/ButtonScreenView.cpp:350:6:void ButtonScreenView::updateHighScoreDisplay()	32	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/buttonscreen_screen/ButtonScreenView.cpp:32:6:virtual void ButtonScreenView::setupScreen()	8	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/buttonscreen_screen/ButtonScreenView.cpp:364:6:void ButtonScreenView::checkAndUpdateHighScore(int)	0	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/buttonscreen_screen/ButtonScreenView.cpp:78:6:void ButtonScreenView::updateCursor()	24	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/buttonscreen_screen/ButtonScreenView.cpp:63:6:virtual void ButtonScreenView::handleTickEvent()	8	static

@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/selecthardwarescreen_screen/SelectHardwareScreenPresenter.hpp:28:13:SelectHardwareScreenPresenter::~SelectHardwareScreenPresenter()	1
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/selecthardwarescreen_screen/SelectHardwareScreenPresenter.cpp:10:6:virtual void SelectHardwareScreenPresenter::activate()	1
+../../TouchGFX/gui/include/gui/selecthardwarescreen_screen/SelectHardwareScreenPresenter.hpp:28:13:virtual SelectHardwareScreenPresenter::~SelectHardwareScreenPresenter()	1
+../../TouchGFX/gui/include/gui/selecthardwarescreen_screen/SelectHardwareScreenPresenter.hpp:28:13:virtual void* SelectHardwareScreenPresenter::_ZThn4_N29SelectHardwareScreenPresenterD1Ev()	1
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/selecthardwarescreen_screen/SelectHardwareScreenPresenter.cpp:4:1:SelectHardwareScreenPresenter::SelectHardwareScreenPresenter(SelectHardwareScreenView&)	1

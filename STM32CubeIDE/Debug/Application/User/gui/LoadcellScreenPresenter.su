@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/loadcellscreen_screen/LoadcellScreenPresenter.hpp:28:13:LoadcellScreenPresenter::~LoadcellScreenPresenter()	0	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/loadcellscreen_screen/LoadcellScreenPresenter.cpp:10:6:virtual void LoadcellScreenPresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/loadcellscreen_screen/LoadcellScreenPresenter.hpp:28:13:virtual LoadcellScreenPresenter::~LoadcellScreenPresenter()	8	static
+../../TouchGFX/gui/include/gui/loadcellscreen_screen/LoadcellScreenPresenter.hpp:28:13:virtual void* LoadcellScreenPresenter::_ZThn4_N23LoadcellScreenPresenterD1Ev()	0	static
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/loadcellscreen_screen/LoadcellScreenPresenter.cpp:4:1:LoadcellScreenPresenter::LoadcellScreenPresenter(LoadcellScreenView&)	0	static

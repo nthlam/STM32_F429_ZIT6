@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/buttonscreen_screen/ButtonScreenPresenter.hpp:28:13:ButtonScreenPresenter::~ButtonScreenPresenter()	1
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/buttonscreen_screen/ButtonScreenPresenter.cpp:10:6:virtual void ButtonScreenPresenter::activate()	1
+../../TouchGFX/gui/include/gui/buttonscreen_screen/ButtonScreenPresenter.hpp:28:13:virtual ButtonScreenPresenter::~ButtonScreenPresenter()	1
+../../TouchGFX/gui/include/gui/buttonscreen_screen/ButtonScreenPresenter.hpp:28:13:virtual void* ButtonScreenPresenter::_ZThn4_N21ButtonScreenPresenterD1Ev()	1
+C:/TouchGFXProjects/HighstrikerHeNhung/TouchGFX/gui/src/buttonscreen_screen/ButtonScreenPresenter.cpp:4:1:ButtonScreenPresenter::ButtonScreenPresenter(ButtonScreenView&)	1
