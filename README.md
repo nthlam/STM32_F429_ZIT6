@@ -9,8 +9,8 @@ __Sản phẩm:__
 4. Giao diện TouchGFX với nhiều màn hình: start, lựa chọn phần cứng, gameplay và tạm dừng
 5. Hệ thống phản hồi thời gian thực với độ trễ dưới 50ms
 
-![Ảnh minh họa dự án Highstriker Game với STM32](./images/anh1.png)
 ![Ảnh minh họa dự án Highstriker Game với STM32](./images/anh2.png)
+![Ảnh minh họa dự án Highstriker Game với STM32](./images/anh1.png)
 ## MÔI TRƯỜNG HOẠT ĐỘNG
 
 - STM32F429ZIT6 (ARM Cortex-M4 @ 180MHz)
