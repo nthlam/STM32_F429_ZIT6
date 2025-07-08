@@ -9,7 +9,7 @@ __Sản phẩm:__
 4. Giao diện TouchGFX với nhiều màn hình: start, lựa chọn phần cứng, gameplay và tạm dừng
 5. Hệ thống phản hồi thời gian thực với độ trễ dưới 50ms
 
-![Ảnh minh họa dự án Highstriker Game với STM32](./AnhDemo.jpg)
+![Ảnh minh họa dự án Highstriker Game với STM32](./images/anh1.png)
 
 ## MÔI TRƯỜNG HOẠT ĐỘNG
 
@@ -20,7 +20,7 @@ __Sản phẩm:__
 - Buzzer để phản hồi âm thanh
 
 ## SƠ ĐỒ SCHEMATIC
-![image](./SoDoMach.jpg)
+![image](./images/SoDoMach.png)
 
 ### TÍCH HỢP HỆ THỐNG
 
